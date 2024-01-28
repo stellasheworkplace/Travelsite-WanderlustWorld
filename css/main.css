@@ -7,7 +7,7 @@
     --cardheight: 100%
 } 
 
-
+/* header */
 header{
     background-color: var(--white);
     display: flex;
@@ -43,6 +43,7 @@ header{
 
 .logo{color:var(--blue);text-decoration:none;}
 
+/* hero */
 .hero{
     background-color: var(--cream);
     height:100%;
@@ -96,6 +97,7 @@ article{
     margin-bottom: 4%;
 }
 
+/* recommendation */
 .recommendations_title{
     font-size: 180%;
     font-weight: bold;
@@ -146,6 +148,7 @@ article{
     font-weight: bold;
 }
 
+/* footer */
 footer{
     background-color: var(--cream);
     padding: 25px;
@@ -156,12 +159,13 @@ footer{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    height:auto;
+    height: 100%;
     
 }
 
 .footer_container-left{
     margin-left: 15%;
+    height: 20%;
     
 }
 
@@ -180,6 +184,7 @@ h3{
     color:var(--orange);
     font-size:70%;
 }
+
 .hour{
     display: flex;
     flex-direction: row;
